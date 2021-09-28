@@ -1,5 +1,4 @@
 from django.db import models
-from jsignature.fields import JSignatureField
 
 # Create your models here.
 
