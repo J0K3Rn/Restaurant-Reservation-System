@@ -8,7 +8,8 @@ Open the virtual environment in /Website/ with:
 When you're ready to exit the virtual environment:
 - deactivate
 
-Run django with python manage.py runserver
+Run django with:
+- python manage.py runserver
 
 Directories:
 - pages: App that contains all backend information regarding page redirections. Currently only thing changed is views.py
