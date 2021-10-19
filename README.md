@@ -19,6 +19,7 @@ Directories:
 - reservationSystem: Main django directory that holds settings.py
 
 todo:
+- remove include from reservationSystem/urls.py
 - Add more hyperlinks across website
 - Fix Login redirection link
 - Create login page that checks for user credentials in database
