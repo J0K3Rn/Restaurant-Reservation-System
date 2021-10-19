@@ -4,6 +4,14 @@
 	<title>Restaurant Reservation Site</title>
 </head>
 <body>
+	{% if user.is_authenticated %}
+		Hi {{ user.username }}!
+		<p><a href="{% url 'home' %}">Log Out</a></p>
+	{% else %}
+		<p>You are not logged in</p>
+		<a href="{% url 'home' %}">Log In</a>
+		<a href="{% url 'create_account' %}">Create Account</a>
+	{% endif %}
 	{% block content %}
 	{% endblock %}
 </body>

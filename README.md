@@ -19,12 +19,15 @@ Directories:
 - reservationSystem: Main django directory that holds settings.py
 
 todo:
+- Add more hyperlinks across website
+- Fix Login redirection link
+- Create login page that checks for user credentials in database
+- Get working logout button
 - update README formatting
 - give summary of project in README
 - explain files in README
 - add more notes to README
 - Make more accurate fields for the database data (in the apps models.py) Might be some better datafields and also update the parameters by adding set lengths and requirements
 - Migrate everything to a MongoDB database? (Currently sql)
-- Create webform login / register account for users
-- add logout button
-- Create webform for making a reservation
+- Test webform login / register account for users
+- Test webform for making a reservation
