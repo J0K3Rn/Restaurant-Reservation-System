@@ -12,7 +12,7 @@ Run django with python3 manage.py runserver
 
 Directories:
 - pages: App that contains all backend information regarding page redirections. Currently only thing changed is views.py
-- templates: directory that holds all html code for front-end
+- templates: directory that holds some basic html code for front-end webpages. Webforms are located in their respective apps
 - members: App that holds class information about members
 - reservations: App that holds class information for reservations
 - tables: App that holds class information for tables
