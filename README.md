@@ -10,6 +10,14 @@ When you're ready to exit the virtual environment:
 
 Run django with python3 manage.py runserver
 
+Directories:
+- pages: App that contains all backend information regarding page redirections. Currently only thing changed is views.py
+- templates: directory that holds all html code for front-end
+- members: App that holds class information about members
+- reservations: App that holds class information for reservations
+- tables: App that holds class information for tables
+- reservationSystem: Main django directory that holds settings.py
+
 todo:
 - update README formatting
 - give summary of project in README
