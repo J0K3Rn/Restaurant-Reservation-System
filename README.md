@@ -20,6 +20,7 @@ Directories:
 - reservationSystem: Main django directory that holds settings.py
 
 todo:
+- (low priority) add defect webpage link to bottom of webpages, create webform page for logging defects
 - remove include from reservationSystem/urls.py
 - Add more hyperlinks across website
 - Fix Login redirection link
