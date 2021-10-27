@@ -1,0 +1,61 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>FormWizard_v7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="colorlib.com">
+
+    <!-- MATERIAL DESIGN ICONIC FONT -->
+    <link rel="stylesheet" href="{% static 'fonts/material-design-iconic-font/css/material-design-iconic-font.css'%}">
+
+    <!-- DATE-PICKER -->
+    <link rel="stylesheet" href="{% static 'vendor/date-picker/css/datepicker.min.css'%}">
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="" id="wizard">
+
+            <!-- SECTION 3 -->
+            <h4></h4>
+            <section>
+                <div class="inner">
+                    <div class="image-holder">
+                        <img src="images/form-wizard-3.jpg" alt="">
+                    </div>
+                    <div class="form-content">
+                        <div class="form-inner form-inner-last">
+                            <div class="ready">
+                                <span>
+                                    <i class="zmdi zmdi-check"></i>
+                                </span>
+                                <p class="text-1">Your table is ready</p>
+                                <p class="text-2">~ Happy friends with a say ~</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+        </form>
+    </div>
+
+    <script src="{%static 'js/jquery-3.3.1.min.js %}"></script>
+
+    <!-- DATE-PICKER -->
+    <script src="{%static 'vendor/date-picker/js/datepicker.js' %}"></script>
+    <script src="{%static 'vendor/date-picker/js/datepicker.en.js' %}"></script>
+
+    <!-- JQUERY STEP -->
+    <script src="{% 'js/jquery.steps.js' %}"></script>
+
+    <script src="{% 'js/main.js' %}"></script>
+
+<!-- Template created and distributed by Colorlib -->
+</body>
+</html>

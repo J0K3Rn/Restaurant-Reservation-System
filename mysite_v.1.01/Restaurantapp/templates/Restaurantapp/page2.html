@@ -1,0 +1,73 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+      <title>FormWizard_v7</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="colorlib.com">
+
+      <!-- MATERIAL DESIGN ICONIC FONT -->
+      <link rel="stylesheet" href="{% static 'fonts/material-design-iconic-font/css/material-design-iconic-font.css'%}">
+
+      <!-- DATE-PICKER -->
+      <link rel="stylesheet" href="{% static 'vendor/date-picker/css/datepicker.min.css'%}">
+
+      <!-- STYLE CSS -->
+      <link rel="stylesheet" href="{% static 'css/style.css'%}">
+</head>
+<body>
+      <!-- SECTION 2 -->
+      <h4></h4>
+      <section>
+            <div class="inner">
+                  <div class="image-holder">
+                        <img src="images/form-wizard-2.jpg" alt="">
+                  </div>
+                  <div class="form-content">
+                        <div class="form-inner">
+                              <div class="form-header">
+                                    <h3>Contact details</h3>
+                                    <p>~ Check out our place ~</p>
+                              </div>
+                              <div class="form-row">
+                                    <label for="">
+                                          <i class="zmdi zmdi-account-o"></i>
+                                          Name
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="Name">
+                              </div>
+                              <div class="form-row">
+                                    <label for="">
+                                          <i class="zmdi zmdi-phone"></i>
+                                          Phone
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="My phone">
+                              </div>
+                              <div class="form-row">
+                                    <label for="">
+                                          <i class="zmdi zmdi-email"></i>
+                                          Email
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="Your Email">
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+
+      <script src="{%static 'js/jquery-3.3.1.min.js %}"></script>
+
+      <!-- DATE-PICKER -->
+      <script src="{%static 'vendor/date-picker/js/datepicker.js' %}"></script>
+      <script src="{%static 'vendor/date-picker/js/datepicker.en.js' %}"></script>
+      
+      <!-- JQUERY STEP -->
+      <script src="{% 'js/jquery.steps.js' %}"></script>
+
+      <script src="{% 'js/main.js' %}"></script>
+
+      
+</body>
+</html>

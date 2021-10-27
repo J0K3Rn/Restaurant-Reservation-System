@@ -1,0 +1,45 @@
+{%load static%}
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 34px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+
+  <ul>
+    <li><img src="" alt=""></li>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li style="float:right"><a class="active" href="#about">About</a>
+      <li style="float:right"><a class="active" href="account/register">Register</a>
+    <li style="float:right"><a class="active" href="account/login">Login</a>
+  </ul>
+
+</body>
+</html>
+
