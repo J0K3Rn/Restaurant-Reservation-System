@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'tables',
     'members',
     'reservations',
+    'bugs',
 ]
 
 MIDDLEWARE = [

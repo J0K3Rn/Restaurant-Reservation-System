@@ -6,13 +6,24 @@
 <body>
 	{% if user.is_authenticated %}
 		Hi {{ user.username }}!
-		<p><a href="{% url 'home' %}">Log Out</a></p>
+		<p style="text-align: left;">
+			<a href="{% url 'logout' %}">Log Out</a>
+		</p>
 	{% else %}
-		<p>You are not logged in</p>
-		<a href="{% url 'home' %}">Log In</a>
+		<p style="text-align: left;">You are not logged in
+		<br>
+		<a href="{% url 'login' %}">Log In</a>
 		<a href="{% url 'create_account' %}">Create Account</a>
+		</p>
 	{% endif %}
+
+	<a href="{% url 'home' %}">Home</a>
+
 	{% block content %}
 	{% endblock %}
+
+	<p style="position: absolute; bottom: 0; left: 0; width: 100%; text-align: center;">
+		<a href="{% url 'create_bug_tracker' %}">I Found a Bug</a>
+	</p>
 </body>
 </html>

@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+	<title>Restaurant Reservation Site</title>
+</head>
+<body>
+	<br><a href="{% url 'home' %}">Home</a>
+	
+	{% block content %}
+	{% endblock %}
+
+	<p style="position: absolute; bottom: 0; left: 0; width: 100%; text-align: center;">
+		<a href="{% url 'create_bug_tracker' %}">I Found a Bug</a>
+	</p>
+</body>
+</html>

@@ -1,11 +1,17 @@
-{% extends 'bug.html' %}
+<!doctype html>
+<html>
+<head>
+	<title>Bug Report</title>
+</head>
+<body>
 
 {% block content %}
-
-<title>Create Account</title>
 <form action="." method="POST">{% csrf_token %}
 	{{ form.as_p }}
 	<input type="submit" value="Save" />
 </form>
 
 {% endblock %}
+
+</body>
+</html>
