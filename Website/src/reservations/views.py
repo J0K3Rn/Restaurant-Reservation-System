@@ -19,3 +19,9 @@ def reservation_create_view(request):
 		"form": my_form
 	}
 	return render(request, "reservations/reservation_create.html", context)
+
+def Homepage(request):
+	return render(request, "Home.html")
+
+def guest_res(request):
+	return render(request, "login_reserve.html")
