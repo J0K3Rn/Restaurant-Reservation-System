@@ -8,6 +8,7 @@
 		Hi {{ user.username }}!
 		<p style="text-align: left;">
 			<a href="{% url 'logout' %}">Log Out</a>
+			<br>You have x member points!
 		</p>
 	{% else %}
 		<p style="text-align: left;">You are not logged in

@@ -1,17 +1,13 @@
-<!doctype html>
-<html>
-<head>
-	<title>Bug Report</title>
-</head>
-<body>
+{% extends 'home.html' %}
 
 {% block content %}
-<form action="." method="POST">{% csrf_token %}
-	{{ form.as_p }}
-	<input type="submit" value="Save" />
-</form>
+	
+	<title>Bug Report</title>
+	
+	<form action="." method="POST">{% csrf_token %}
+		{{ form.as_p }}
+		<input type="submit" value="Save" />
+	</form>
 
 {% endblock %}
 
-</body>
-</html>
