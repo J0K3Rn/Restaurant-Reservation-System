@@ -18,13 +18,13 @@ from django.urls import path, include
 
 from pages.views import *
 from reservations.views import *
-from members.views import member_create_view
+#from members.views import member_create_view
 
 urlpatterns = [
     path('', Homepage),
     path('admin/', admin.site.urls),
     path('create/', reservation_create_view),
-    path('accounts/', member_create_view, name='create_account'),
+    #path('accounts/', member_create_view, name='create_account'),
     path('', include('members.urls')),
     path('reservations/', include('reservations.urls')),
     path('pages/', include('pages.urls'))

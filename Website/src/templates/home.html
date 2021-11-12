@@ -60,9 +60,14 @@
 					<span class="m1-txt1 p-b-2">Sec</span>
 				</div>
 			</div> -->
+			<div class="m-t-10 m-b-10">
+				<a href="{% url 'guest_reserve' %}" class="size2 s1-txt1 flex-c-m how-btn1 trans-04">
+					Guest
+				</a>
+			</div>
 
 			<div class="m-t-10 m-b-10">
-				<a href="{% url 'login' %}" class="size2 s1-txt1 flex-c-m how-btn1 trans-04">
+				<a href="{% url 'signup' %}" class="size2 s1-txt1 flex-c-m how-btn1 trans-04">
 					Sign Up
 				</a>
 			</div>
@@ -155,21 +160,3 @@
 </html>
 
 
-<!-- <!doctype html>
-<html>
-<head>
-	<title>Restaurant Reservation Site</title>
-</head>
-<body>
-	{% if user.is_authenticated %}
-		Hi {{ user.username }}!
-		<p><a href="{% url 'Homepage' %}">Log Out</a></p>
-	{% else %}
-		<p>You are not logged in</p>
-		<a href="{% url 'Homepage' %}">Log In</a>
-		<a href="{% url 'create_account' %}">Create Account</a>
-	{% endif %}
-	{% block content %}
-	{% endblock %}
-</body>
-</html> -->

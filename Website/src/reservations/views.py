@@ -21,7 +21,7 @@ def reservation_create_view(request):
 	return render(request, "reservations/reservation_create.html", context)
 
 def Homepage(request):
-	return render(request, "Home.html")
+	return render(request, "home1.html")
 
-def guest_res(request):
+def guest_reserve(request):
 	return render(request, "login_reserve.html")
